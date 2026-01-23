@@ -1,0 +1,81 @@
+# Clinical Decision Support Systems (CDSS) and AI
+
+## Purpose
+Clinical Decision Support Systems (CDSS) represent one of the most impactful and sensitive applications of artificial intelligence in healthcare. These systems are designed to **support clinical decision-making**, not replace it, by delivering evidence-based recommendations at the point of care.
+
+This section builds on concepts from:
+- [Medical Terminology & AI](../01_medical_terminology_and_ai/termini_technici_in_ai_healthcare.md)
+- [Healthcare Data Quality & AI Readiness](../02_healthcare_data_quality/data_quality_and_ai_in_healthcare.md)
+
+to examine how AI-enhanced CDSS function in real-world clinical environments and why **human oversight, data quality, and ethical accountability** are essential to their safe use.
+
+---
+
+## What Is a Clinical Decision Support System?
+
+A Clinical Decision Support System is a health information technology tool that analyzes patient data, medical knowledge, and clinical guidelines to provide recommendations that assist healthcare professionals in diagnosis, treatment planning, risk assessment, and medication management.
+
+Traditional CDSS were largely rule-based, relying on predefined clinical guidelines. Modern CDSS increasingly incorporate machine learning and AI to identify patterns, predict outcomes, and personalize recommendations based on complex, multi-dimensional data.
+
+---
+
+## Common AI-Enabled CDSS Applications
+
+AI-enhanced CDSS are commonly used for:
+
+- **Diagnostic Support:**  
+  Assisting clinicians in interpreting imaging, lab results, or symptom clusters.
+
+- **Risk Stratification:**  
+  Identifying patients at higher risk for adverse events, disease progression, or readmission.
+
+- **Medication Management:**  
+  Flagging potential drug–drug interactions, dosing errors, or contraindications.
+
+- **Treatment Recommendations:**  
+  Suggesting evidence-based interventions tailored to individual patient profiles.
+
+These applications demonstrate AI’s potential to augment clinical expertise, particularly in data-intensive scenarios.
+
+---
+
+## The Role of Data Quality in CDSS Performance
+
+The effectiveness of AI-powered CDSS depends directly on the quality and structure of the underlying data. As discussed in
+[Healthcare Data Quality & AI Readiness](../02_healthcare_data_quality/data_quality_and_ai_in_healthcare.md),
+issues such as missing values, inconsistent documentation, and proxy labeling can distort model outputs.
+
+When CDSS rely on imperfect real-world data—such as billing or claims codes used as substitutes for clinical ground truth—recommendations may reflect systemic biases rather than true patient need.
+
+---
+
+## Human-in-the-Loop and Clinical Accountability
+
+Because CDSS influence clinical decision-making, **human-in-the-loop oversight** is essential. In this design approach:
+- Clinicians retain final decision authority
+- AI recommendations are reviewed, contextualized, and validated
+- Responsibility for patient outcomes remains with healthcare professionals
+
+Human oversight ensures that AI functions as decision support rather than decision authority, preserving ethical responsibility and patient safety.
+
+---
+
+## Ethical Considerations in AI-Driven CDSS
+
+AI-powered CDSS raise important ethical and operational considerations, including:
+- **Bias Mitigation:** Preventing the reinforcement of healthcare disparities
+- **Explainability:** Ensuring clinicians understand why a recommendation was generated
+- **Workflow Integration:** Avoiding alert fatigue or disruption to clinical practice
+- **Trust:** Supporting clinician and patient confidence in AI-assisted care
+
+Addressing these considerations is critical to achieving real-world adoption and long-term success.
+
+---
+
+## Key Takeaway
+AI-enhanced Clinical Decision Support Systems have the potential to improve care quality, efficiency, and consistency. However, their success depends on high-quality data, transparent design, and meaningful human oversight. When thoughtfully implemented, CDSS can strengthen—not replace—clinical judgment and serve as a bridge between data-driven insights and patient-centered care.
+
+---
+
+## References
+This section is informed by peer-reviewed research from *npj Digital Medicine*, *Journal of Medical Internet Research*, *Artificial Intelligence in Medicine*, and guidance from healthcare regulatory bodies addressing AI-enabled decision support systems.
