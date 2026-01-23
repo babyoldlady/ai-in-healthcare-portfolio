@@ -1,0 +1,82 @@
+# Medical Terminology in AI-Driven Healthcare
+
+## Purpose
+Artificial intelligence in healthcare operates at the intersection of **clinical language and computational systems**. This document highlights selected medical terms (“termini technici”) frequently encountered in AI-driven healthcare research and applications, explaining their clinical meaning, contextual use, and importance for safe and effective AI development.
+
+Mastery of medical terminology is essential for:
+- Interpreting healthcare datasets correctly
+- Designing clinically meaningful AI models
+- Communicating effectively with clinicians and stakeholders
+- Avoiding misrepresentation of patient conditions in AI systems
+
+---
+
+## Selected Medical Terminology
+
+### 1. Dementia
+**Definition:**  
+Dementia is a clinical syndrome characterized by a progressive decline in cognitive function severe enough to interfere with independent activities of daily living. It typically affects memory, executive function, language, and reasoning, while consciousness is preserved.
+
+**Clinical Context:**  
+Dementia frequently appears in AI research related to early detection, cognitive assessment, disease progression modeling, and remote monitoring in aging populations.
+
+**Importance for AI in Healthcare:**  
+AI models trained to detect or predict dementia must rely on accurate clinical definitions and validated diagnostic criteria. Poor labeling or inconsistent documentation can lead to misclassification, delayed diagnosis, or inequitable care recommendations.
+
+---
+
+### 2. Axial Length
+**Definition:**  
+Axial length refers to the front-to-back measurement of the eye and is a critical biometric parameter used to assess eye growth and myopia progression.
+
+**Clinical Context:**  
+Axial length is commonly used in ophthalmology studies where AI models predict myopia progression or evaluate the effectiveness of interventions.
+
+**Importance for AI in Healthcare:**  
+Precise measurement of axial length is essential for training reliable predictive models. Small measurement errors or inconsistent data collection can significantly affect AI-driven risk stratification and clinical decision support.
+
+---
+
+### 3. Deep Brain Stimulation (DBS)
+**Definition:**  
+Deep brain stimulation is a neuromodulation therapy involving the implantation of electrodes that deliver electrical impulses to specific brain regions to manage neurological conditions such as Parkinson’s disease.
+
+**Clinical Context:**  
+AI is increasingly used to optimize DBS settings, monitor patient outcomes remotely, and analyze real-world treatment effectiveness.
+
+**Importance for AI in Healthcare:**  
+DBS-related AI systems must integrate real-time physiological data with clinical expertise. Human-in-the-loop oversight is critical, as incorrect AI recommendations could directly affect neurological function and patient safety.
+
+---
+
+### 4. Clinical Decision Support System (CDSS)
+**Definition:**  
+A Clinical Decision Support System is a health information technology system designed to assist healthcare professionals by providing evidence-based recommendations at the point of care.
+
+**Clinical Context:**  
+AI-enhanced CDSS are used for diagnostic support, medication management, risk assessment, and treatment planning.
+
+**Importance for AI in Healthcare:**  
+Understanding CDSS terminology helps ensure AI tools augment—not replace—clinical judgment. Clear terminology supports accountability, transparency, and appropriate integration into clinical workflows.
+
+---
+
+### 5. Label Noise
+**Definition:**  
+Label noise refers to inaccuracies or inconsistencies in the outcome labels used to train machine learning models, often resulting from proxy measurements or administrative data sources.
+
+**Clinical Context:**  
+In healthcare AI, label noise commonly arises when billing or claims data are used as substitutes for clinical ground truth.
+
+**Importance for AI in Healthcare:**  
+Label noise can introduce bias and degrade model performance. Recognizing this term is essential for evaluating the reliability, fairness, and safety of AI systems trained on real-world healthcare data.
+
+---
+
+## Key Takeaway
+AI systems in healthcare depend on **precise medical terminology** to translate complex physiological and clinical concepts into reliable computational models. Misunderstanding or misusing medical language can propagate errors, bias, and unsafe recommendations. Developing fluency in both medical and AI terminology is foundational to responsible, patient-centered healthcare AI.
+
+---
+
+## References
+Selected terms and contexts were informed by peer-reviewed literature from journals such as *npj Digital Medicine*, *Journal of Medical Internet Research*, *Nature Medicine*, and *JAMA Network Open*.
