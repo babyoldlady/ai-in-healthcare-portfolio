@@ -2,7 +2,18 @@
 
 This repository showcases selected coursework, applied analysis, and written reflections from my studies in **Artificial Intelligence in Healthcare**. It is designed to demonstrate my ability to understand, evaluate, and communicate how AI systems interact with real-world healthcare environments — clinically, ethically, and operationally.
 
-Rather than focusing solely on model development, this portfolio emphasizes **data quality, clinical context, decision support, bias mitigation, and trust**, which are critical to deploying safe, effective, and responsible AI in healthcare settings.
+This portfolio highlights how I evaluate and communicate AI readiness in healthcare -- data quality, interoperability, clinical workflow fit, risk, bias, and governance - supported by peer-reviewed and.gov sources."
+
+Includes short write-ups, annotated references, and dataset mini-analyses (CSV & summary stats) aligned to weekly course modules.
+
+---
+
+## Start Here
+
+### 1. Medical Terminology & AI Literacy
+-02_healthcare_data_quality/ Best overview of real-world constraints
+-04_bias_ethics_trust/ Governance + risk thinking
+-05_datasets_and_analysis/ Hands-on evidence
 
 ---
 
@@ -89,6 +100,8 @@ It reflects my interest in roles that sit at the intersection of **healthcare, d
 ## About Me
 
 I bring a background in professional communication and applied AI coursework, with a strong interest in how artificial intelligence can be responsibly integrated into healthcare systems. My focus is on ensuring AI tools are built on high-quality data, aligned with clinical realities, and deployed in ways that support trust, safety, and equity.
+
+Contact me on LinkedIn https://www.linkedin.com/in/hillarybruton/
 
 ---
 
