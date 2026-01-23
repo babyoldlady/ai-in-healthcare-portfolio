@@ -1,0 +1,76 @@
+# Healthcare Data Quality and AI Readiness
+
+## Purpose
+Artificial intelligence in healthcare is only as effective as the data used to train, validate, and deploy it. This document examines how **data quality, coding standards, bias, and interoperability** directly influence the safety, reliability, and equity of AI-driven healthcare systems.
+
+Building on the medical terminology introduced in
+[01_medical_terminology_and_ai](../01_medical_terminology_and_ai/termini_technici_in_ai_healthcare.md),
+this section focuses on the structural characteristics of healthcare data that determine whether AI tools function as intended in real-world clinical environments.
+
+---
+
+## Common Sources of Healthcare Data
+
+Healthcare AI systems rely on multiple data sources, each with strengths and limitations:
+
+- **Electronic Health Records (EHRs):**  
+  Rich clinical detail (diagnoses, vitals, medications), but often fragmented, inconsistently documented, and system-dependent.
+
+- **Billing and Claims Data:**  
+  Highly standardized and longitudinal, but primarily generated for reimbursement rather than clinical accuracy.
+
+- **Clinical Registries:**  
+  Disease-specific and curated, offering higher-quality labels but limited population scope.
+
+- **Patient-Generated Data:**  
+  Wearables and surveys provide real-time insight but raise concerns about reliability, adherence, and representativeness.
+
+Understanding these distinctions is critical for selecting appropriate datasets and avoiding unintended bias in AI models.
+
+---
+
+## Data Quality Challenges in Healthcare AI
+
+### 1. Missingness and Inconsistency
+Healthcare datasets frequently contain missing or incomplete values due to workflow constraints, documentation practices, and care fragmentation. AI models trained on such data may learn patterns that reflect documentation behavior rather than true clinical states.
+
+### 2. Coding Standards and Proxy Labels
+Coding systems such as ICD-10 and CPT improve standardization but are imperfect proxies for clinical reality. When these codes are treated as ground truth labels, **label noise** can be introduced, distorting disease severity and patient need (see *Label Noise* in
+[Medical Terminology & AI](../01_medical_terminology_and_ai/termini_technici_in_ai_healthcare.md)).
+
+### 3. Bias Embedded in Real-World Data
+Data generated within healthcare systems reflects existing institutional practices, access disparities, and reimbursement incentives. AI models trained on these datasets risk inheriting and amplifying systemic bias unless explicitly addressed during development.
+
+---
+
+## Interoperability and Legacy Systems
+
+Despite widespread adoption of EHRs, interoperability remains a major barrier. Many healthcare organizations rely on legacy systems that:
+- Use incompatible data formats
+- Limit cross-system data sharing
+- Increase administrative burden on clinicians
+
+These challenges complicate data aggregation and reduce the generalizability of AI models across populations and care settings.
+
+---
+
+## Why Data Quality Matters for AI Deployment
+
+High-performing AI models cannot compensate for poor-quality inputs. Without robust data stewardship, AI systems may:
+- Produce unreliable or unsafe recommendations
+- Reinforce existing inequities
+- Undermine clinician trust
+- Fail in real-world deployment despite promising pilot results
+
+Ensuring AI readiness therefore requires investment not only in algorithms, but also in **data governance, standardization, and workflow-aware integration**.
+
+---
+
+## Key Takeaway
+Responsible AI in healthcare begins long before model training. It depends on understanding how healthcare data is generated, coded, maintained, and shared. Addressing data quality and interoperability challenges is foundational to building AI systems that are clinically meaningful, ethically sound, and worthy of patient and provider trust.
+
+---
+
+## References
+This analysis draws on peer-reviewed research from *JMIR Medical Informatics*, *Journal of Medical Internet Research*, *npj Digital Medicine*, and *Nature Medicine*, with emphasis on recent studies examining data quality, bias, and interoperability in healthcare AI.
+
