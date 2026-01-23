@@ -69,7 +69,9 @@ Selected written work adapted from discussion posts and assignments, demonstrati
 - Clear, professional communication for diverse audiences  
 - Evidence-based reasoning supported by peer-reviewed and .gov sources  
 
-📁 `06_reflections_and_writing_samples/`
+📁 📌 *For a reflective summary of my learning and professional perspective, see:*
+[Course Reflection](05_applied_case_studies_and_reflections/course_reflection_ai_in_healthcare.md)
+
 
 ---
 
