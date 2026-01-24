@@ -3,6 +3,8 @@
 ## Purpose
 This reflection captures how my understanding of artificial intelligence in healthcare evolved throughout this coursework—from an initial focus on technological capability to a more nuanced appreciation of data quality, clinical context, ethics, and human accountability. Rather than viewing AI as a standalone innovation, this course reinforced that healthcare AI is a sociotechnical system that must function within complex clinical, organizational, and human environments.
 
+The reflections and writing samples included here demonstrate applied reasoning, ethical awareness, and communications skills essential for responsible AI development in healthcare.
+
 ---
 
 ## From AI Capability to AI Context
