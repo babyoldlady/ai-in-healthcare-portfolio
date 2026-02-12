@@ -1,108 +1,133 @@
-# AI in Healthcare Portfolio
-
-This repository showcases selected coursework, applied analysis, and written reflections from my studies in **Artificial Intelligence in Healthcare**. It is designed to demonstrate my ability to understand, evaluate, and communicate how AI systems interact with real-world healthcare environments — clinically, ethically, and operationally.
-
-This portfolio highlights how I evaluate and communicate AI readiness in healthcare -- data quality, interoperability, clinical workflow fit, risk, bias, and governance - supported by peer-reviewed and.gov sources."
-
-Includes short write-ups, annotated references, and dataset mini-analyses (CSV & summary stats) aligned to weekly course modules.
+# AI in Healthcare Portfolio  
+**Hillary Bruton**  
+AI Strategy | Clinical Decision Support | Healthcare Risk Modeling | Governance & Trust  
 
 ---
 
-## Start Here
+## Executive Overview
 
-### 1. Medical Terminology & AI Literacy
--02_healthcare_data_quality/ Best overview of real-world constraints
--04_bias_ethics_trust/ Governance + risk thinking
--05_datasets_and_analysis/ Hands-on evidence
+This repository reflects a systems-level examination of artificial intelligence in healthcare, with a focus on clinical reliability, model governance, and responsible deployment.
 
----
+My work centers on a core strategic insight:
 
-## Areas of Focus
+> AI in healthcare is only as effective as the quality, structure, calibration, and governance of the clinical data and terminology on which it relies.
 
-### 1. Medical Terminology & AI Literacy
-Exploration of essential medical terminology (“termini technici”) commonly encountered in AI-driven healthcare research, with emphasis on:
-- Clinical meaning and context  
-- Why precise terminology matters for AI training and interpretation  
-- Bridging communication between clinicians, data scientists, and stakeholders  
-
-📁 `01_medical_terminology_and_ai/`
+Rather than treating AI as a standalone innovation, this portfolio approaches healthcare AI as an integrated ecosystem challenge—spanning medical language, data integrity, model validation, workflow design, bias mitigation, and regulatory oversight.
 
 ---
 
-### 2. Healthcare Data Quality & Interoperability
-Analysis of how healthcare data characteristics affect AI performance, including:
-- Missingness, inconsistency, and documentation gaps  
-- Claims vs. EHR data and reimbursement-driven bias  
-- Coding standards (e.g., ICD-10, CPT)  
-- Interoperability challenges across legacy systems  
+## Strategic Lens
 
-Grounded in recent peer-reviewed literature and real-world examples.
+Across clinical decision support systems (CDSS), diagnostic AI, and risk modeling, the following themes consistently emerge:
 
-📁 `02_healthcare_data_quality/`
+- **Discrimination alone is insufficient** — calibration, subgroup equity, and external validity determine real-world safety.
+- **Deployment is not the finish line** — monitoring, drift detection, and recalibration are continuous obligations.
+- **Bias mitigation is institutional as well as technical** — governance frameworks must define acceptable risk thresholds.
+- **AI must remain advisory** — clinician oversight and interpretability are foundational to trust.
 
 ---
 
-### 3. Clinical Decision Support Systems (CDSS)
-Overview of how AI-enhanced CDSS support (but do not replace) clinical decision-making, including:
-- Risk stratification and diagnostic support  
-- Human-in-the-loop design principles  
-- Ethical responsibility and clinician accountability  
-- Workflow integration considerations  
+## Applied Focus Areas
 
-📁 `03_clinical_decision_support/`
+My applied lens consistently centers on:
 
----
+- Dementia and cognitive decline  
+- Aging populations  
+- Menopause-stage care  
 
-### 4. Bias, Ethics, and Trust in Healthcare AI
-Critical examination of:
-- Label noise and bias in real-world healthcare datasets  
-- Equity risks when using administrative and claims data  
-- Transparency, explainability, and patient trust  
-- Governance strategies for responsible AI deployment  
+These domains represent clinically complex environments characterized by:
 
-📁 `04_bias_ethics_trust/`
+- Gradual symptom progression  
+- Heavy reliance on patient-reported data  
+- Documentation variability  
+- Historical underrecognition  
+
+They are also precisely the types of contexts where poorly governed AI systems can silently amplify inequity.
 
 ---
 
-### 5. Healthcare Datasets & Basic Analysis
-Hands-on work with mock healthcare datasets to demonstrate:
-- Data interpretation and descriptive statistics  
-- Awareness of sample size limitations  
-- Responsible framing of analytic results  
+## Repository Architecture
 
-📁 `05_datasets_and_analysis/`
+### 01_medical_terminology_and_ai  
+Examines how medical terminology shapes dataset construction, algorithm training, and downstream bias.  
+Explores how underdocumented or ambiguously defined conditions compromise AI reliability.
 
 ---
 
-### 6. Writing & Reflections
-Selected written work adapted from discussion posts and assignments, demonstrating:
-- Ability to synthesize technical and clinical concepts  
-- Clear, professional communication for diverse audiences  
-- Evidence-based reasoning supported by peer-reviewed and .gov sources  
+### 02_healthcare_data_quality  
+Analyzes structural weaknesses in EHR data, including incomplete documentation, inconsistent coding practices, and integration challenges between structured and unstructured records.
 
-📁 📌 *For a reflective summary of my learning and professional perspective, see:*
-[Course Reflection](05_applied_case_studies_and_reflections/course_reflection_ai_in_healthcare.md)
-
+Focus: how upstream data issues propagate into predictive systems.
 
 ---
 
-## Intended Audience
+### 03_clinical_decision_support  
+Explores the evolution from rule-based CDSS to AI-enabled advisory systems.  
+Includes forward-looking scenario modeling of contextual, explainable, and workflow-integrated CDSS.
 
-This portfolio is intended for:
-- HR recruiters and hiring managers
-- Healthcare AI, digital health, and clinical informatics teams
-- Organizations focused on responsible, patient-centered AI
-
-It reflects my interest in roles that sit at the intersection of **healthcare, data, ethics, and communication**, including healthcare AI analysis, clinical informatics, AI governance, and digital health strategy.
+Emphasis on governance, clinician interaction models, and regulatory alignment.
 
 ---
 
-## About Me
+### 04_bias_ethics_trust  
+Addresses distribution shift, subgroup performance disparities, recalibration strategies, and lifecycle oversight frameworks.
 
-I bring a background in professional communication and applied AI coursework, with a strong interest in how artificial intelligence can be responsibly integrated into healthcare systems. My focus is on ensuring AI tools are built on high-quality data, aligned with clinical realities, and deployed in ways that support trust, safety, and equity.
+Engages directly with a central governance question:
 
-Contact me on LinkedIn https://www.linkedin.com/in/hillarybruton/
+> Who determines when bias is tolerable in clinical AI—and by what criteria?
 
 ---
 
-*This repository will continue to evolve as coursework progresses and additional analyses are completed.*
+### 05_datasets_and_analysis  
+Applies modern risk modeling principles, including:
+
+- Calibration vs. discrimination  
+- External and temporal validation  
+- Post-deployment monitoring  
+- Operational tradeoffs  
+
+Examines how real-world deployment reshapes model behavior over time.
+
+---
+
+### 06_reflections_and_writing_samples  
+Synthesizes cross-module insights into cohesive strategy-oriented analyses demonstrating:
+
+- Systems thinking  
+- Translational clinical communication  
+- Regulatory awareness  
+- Ethical risk framing  
+
+---
+
+## Governance Perspective
+
+Healthcare AI requires more than model development capability. It demands:
+
+- Validation across diverse populations  
+- Continuous recalibration  
+- Transparent model performance reporting  
+- Clearly defined institutional accountability  
+
+As AI-enabled CDSS and risk models become embedded in care pathways, governance maturity will increasingly determine clinical safety and adoption success.
+
+---
+
+## Positioning
+
+This portfolio reflects a transition from technical coursework into strategic application.
+
+It represents a growing focus on:
+
+- AI oversight frameworks  
+- Clinically grounded model evaluation  
+- Responsible scaling of AI-powered decision support  
+- Trust-centered AI implementation  
+
+Healthcare AI will not be judged solely on innovation—but on its ability to earn and sustain clinical trust.
+
+---
+
+## Transparency Statement
+
+ChatGPT (OpenAI) was used as a research assistance tool to support idea organization and language refinement. All cited literature and conceptual framing were independently reviewed and validated.
