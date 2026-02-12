@@ -137,4 +137,3 @@ Healthcare AI will not be judged solely on innovation—but on its ability to ea
 
 ChatGPT (OpenAI) was used as a research assistance tool to support idea organization and language refinement. All cited literature and conceptual framing were independently reviewed and validated.## Transparency Statement
 
-ChatGPT (OpenAI) was used as a research assistance tool to support idea organization and language refinement. All cited literature and conceptual framing were independently reviewed and validated.
