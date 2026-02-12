@@ -113,12 +113,15 @@ As AI-enabled CDSS and risk models become embedded in care pathways, governance 
 
 ---
 
+## About Me
 ## Positioning
 
 This portfolio reflects a transition from technical coursework into strategic application.
 
+I bring a background in professional communication and applied AI coursework, with a strong interest in how artificial intelligence can be responsibly integrated into healthcare systems. My focus is on ensuring AI tools are built on high-quality data, aligned with clinical realities, and deployed in ways that support trust, safety, and equity.
 It represents a growing focus on:
 
+Contact me on LinkedIn https://www.linkedin.com/in/hillarybruton/
 - AI oversight frameworks  
 - Clinically grounded model evaluation  
 - Responsible scaling of AI-powered decision support  
@@ -128,6 +131,10 @@ Healthcare AI will not be judged solely on innovation—but on its ability to ea
 
 ---
 
+*This repository will continue to evolve as coursework progresses and additional analyses are completed.*
+
 ## Transparency Statement
+
+ChatGPT (OpenAI) was used as a research assistance tool to support idea organization and language refinement. All cited literature and conceptual framing were independently reviewed and validated.## Transparency Statement
 
 ChatGPT (OpenAI) was used as a research assistance tool to support idea organization and language refinement. All cited literature and conceptual framing were independently reviewed and validated.
